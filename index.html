@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/3da1ea1070.js" crossorigin="anonymous"></script>
+    
+</head>
+<body >
+    <div class="container">
+       
+        <div class="form-box">
+            
+            <h1 style="margin-bottom: 130px; color: brown;">Sign Up</h1>
+            <form action="https://abhishek989156.github.io/Portfolio/" >
+                <div class="input-group">
+
+                    <div class="input-field">
+                        <i style="margin-left: 2px;" class="fa-solid fa-user"></i>
+                        <input type="text" placeholder="Name" id="username" required>
+                    </div>
+
+                    <div class="input-field">
+                        <i style="margin-left: 2px;" class="fa-solid fa-envelope"></i>
+                        <input type="email" placeholder="Email Address" id="eml" required>
+                    </div>
+
+                    <div class="input-field">
+                        <i style="margin-left: 2px;" class="fa-solid fa-lock"></i>
+                        <input  onclick="passwordfunction()" type="password" placeholder="Password" id="pswrd" required>
+                    </div>
+                    
+                        
+       
+                    <h5>Lost password?<a href="#" > Click here!</a></h5>
+                    <h5 id="pp" class="pass">Password:admin123</h5>
+                    
+
+
+                    <input  type="submit" placeholder="Email Address" class="eml" required>
+
+
+                </div>
+
+                
+
+               
+
+                    
+                
+            
+            
+            </form>
+
+
+           
+        </div>
+
+    </div>
+    <script>
+        function passwordfunction()
+        {
+            document.getElementById("pp").classList="passenable";
+        }
+        let username=document.getElementById("username");
+        let email=document.getElementById("eml");
+        let password=document.getElementById("pswrd");
+        
+        function newpage()
+        {
+            window.location.href="https://abhishek989156.github.io/Portfolio/";
+        }
+
+
+    </script>
+
+</body>
+</html>

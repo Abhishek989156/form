@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+   
+}
+
+.container{
+   
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-image: url(./4893666.jpg);
+    position: relative;
+   
+
+}
+.form-box{
+    width: 90%;
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   
+    padding: 50px 60px 70px;
+    text-align: center;
+    border-radius: 10px;
+    background-image: url(./abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner.jpg);
+    background-size: cover;
+    opacity: .9;
+
+
+}
+.form-box h1{
+    font-size: 30px;
+    margin-bottom: 60px;
+    color: rgb(76, 76, 180);
+    position: relative;
+
+}
+.form-box h1::after{
+    content: '';
+    width: 30px;
+    height: 4px;
+    border-radius: 3px;
+    background: #3c3c3c;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+.input-field{
+    background: #e9e1e1;
+    margin: 19px 0px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+}
+input{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 10px 15px;
+   
+}
+form p{
+    text-align: left;
+    font-size: 13px;
+
+}
+form p a{
+    text-decoration: none;
+}
+.btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.btn button{
+    flex-basis: 48%;
+    background: #3c3c3c;
+    color: wheat;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    padding: 17px;
+    
+    
+}
+.input-group{
+    margin-bottom: 50px;
+}
+.pass{
+    display: none;
+
+}
+.passenable{
+    display: block;
+}
+
+
+
+.eml{
+    display: block;
+    
+    margin: 50px auto;
+    margin-bottom: 20px;
+    width: fit-content;
+   
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: white;
+    transition: background 0.5s;
+    background-color: brown;
+}
+.eml:hover{
+    background-color: #ff004f;
+    transform: translateY(-5px);
+  }
+  
